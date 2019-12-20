@@ -2,8 +2,9 @@
   "name": "analyticstestingsite",
   "version": "1.0.0",
   "description": "Testing Analytics",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/TremaineNeethling/AnalyticsTestingSite/issues"
   },
-  "homepage": "https://github.com/TremaineNeethling/AnalyticsTestingSite#readme"
+  "homepage": "https://github.com/TremaineNeethling/AnalyticsTestingSite#readme",
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
 }
