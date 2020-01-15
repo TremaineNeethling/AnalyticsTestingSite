@@ -14,15 +14,49 @@
 
   gtag('config', 'UA-151005710-4');
 </script>
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Marck+Script|Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Why does this exist?</h1>
+    <style>
+    p {
+      font-size:18px;
+      text-align:center;
+      font-family:'satisfy', cursive;
+      position:relative;
+      top:5px;
+    }
+    h1 {
+      color:black;
+      position:relative;
+      text-align:center;
+      font-family:'EB Garamond', serif;
+      margin-bottom:-5px;
+      margin-left:0px;
+      top:10px;
+      right:5px;
+    }
+    .Previous {
+        position:absolute;
+        bottom:25px;
+        right:475px;
+    }
+    .Next {
+      position:absolute;
+      bottom:25px;
+      right:425px;
+    }
+    .Pagenr {
+      position:absolute;
+      bottom:25px;
+      right:450px;
+    }
+    </style>
+    <h1 style="text-decoration: underline;">Why does this exist?</h1>
+    <p>To teach myself how to use Google analytics for my job.</p>
 
-<li>
-    <ul>To teach myself how to use Google analytics for my job.</ul>
-    <ul>To test if Google Analytics works at all.</ul>
-</li>
-
-<a href="/">back</a> to previous page
+    <button type="button" class="Previous" onclick="location.href='/';"><</button>
+    <button type="button" class="Next">></button>
+    <button type="button" class="Pagenr">2</button>
 </body>
 </html>

@@ -15,12 +15,60 @@
 
   gtag('config', 'UA-151005710-4');
 </script>
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>It works! Served by expressjs</h1>
+  <style>
+    body {
+      background-image: url("");
+    }
+    h1 {
+      color:black;
+      text-align:center;
+      font-family:'EB Garamond', serif;
+      margin-bottom:-5px;
+      margin-left:0px;
+      position:relative;
+      top:5px;
+    }
+    h2 {
+      color:black;
+      text-align:center;
+      font-size:112.5%;
+      font-style:italic;
+      font-family:'EB Garamond', serif;
+      margin-top:0px;
+      margin-right:139px;
+      margin-left:0px;
+      position:relative;
+      top:4px;
+    }
+    .hamscrew {
+      max-width:3.55%;
+      height:auto;
+      position:relative;
+      bottom:61.8px;
+      margin-left:443.8px;
+      margin-right:0px;
+    }
+    .Next {
+      position:absolute;
+      bottom:25px;
+      right:425px;
+    }
+    .Pagenr {
+      position:absolute;
+      bottom:25px;
+      right:450px;
+    }
+  </style>
+  <h1 style="text-decoration: underline;">Analytics Testing Site</h1>
+    <h2>Served by expressjs</h2>
+      <img class="hamscrew" src="https://cdn.clipart.email/f4b158023214e97db730dd051fa8c9ff_improvement-construction-and-tools-tools-hammer-screwdriver-_800-800.svg" alt="Hammer Clipart Black And White Png" />
 
-    second page <a href="/explanation">here</a>
+    <button type="button" class="Next" onclick="location.href='/explanation';">></button>
+    <button type="button" class="Pagenr">1</button>
 </body>
 
 </html>
